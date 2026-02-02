@@ -28,6 +28,9 @@ Python's ecosystem is increasingly leveraging Rust for performance-critical comp
 - [Graph Libraries](#graph-libraries)
 - [Visualization](#visualization)
 - [Scientific Computing](#scientific-computing)
+- [Bioinformatics & Astronomy](#bioinformatics--astronomy)
+- [Finance](#finance)
+- [Geospatial](#geospatial)
 - [Miscellaneous](#miscellaneous)
 
 ---
@@ -63,6 +66,8 @@ Python's ecosystem is increasingly leveraging Rust for performance-critical comp
 - [delta-rs](https://github.com/delta-io/delta-rs) - Native Rust library for Delta Lake with Python bindings (`deltalake` on PyPI).
 - [connector-x](https://github.com/sfu-db/connector-x) - Fastest library to load data from databases into DataFrames.
 - [pathway](https://github.com/pathwaycom/pathway) - Performant Python ETL framework with a Rust runtime.
+- [hudi-rs](https://github.com/apache/hudi-rs) - Native Rust implementation for Apache Hudi with Python bindings.
+- [sail](https://github.com/lakehq/sail) - Unifying stream, batch, and AI workloads with Apache Spark compatibility.
 
 ## Serialization & Parsing
 
@@ -73,6 +78,7 @@ Python's ecosystem is increasingly leveraging Rust for performance-critical comp
 ## Validation & Data Modeling
 
 - [pydantic-core](https://github.com/pydantic/pydantic-core) - Core validation logic for pydantic, written in Rust.
+- [jsonschema-rs](https://github.com/Stranger6667/jsonschema) - A high-performance JSON Schema validator.
 
 ## Tokenization & ML
 
@@ -84,6 +90,7 @@ Python's ecosystem is increasingly leveraging Rust for performance-critical comp
 
 - [cryptography](https://github.com/pyca/cryptography) - The standard Python cryptographic library, with performance-critical parts in Rust.
 - [blake3-py](https://github.com/oconnor663/blake3-py) - Python bindings for the BLAKE3 cryptographic hash function.
+- [johnnycanencrypt](https://github.com/kushaldas/johnnycanencrypt) - OpenPGP library with Yubikey support.
 
 ## Search & Indexing
 
@@ -101,6 +108,8 @@ Python's ecosystem is increasingly leveraging Rust for performance-critical comp
 ## Data Structures
 
 - [rpds-py](https://github.com/crate-py/rpds) - Python bindings to the Rust rpds crate for persistent data structures.
+- [fastbloom](https://github.com/yankun1992/fastbloom) - A fast bloom filter and counting bloom filter.
+- [fastuuid](https://github.com/thedrow/fastuuid) - Python bindings to Rust's UUID library.
 
 ## File Watching & System Utilities
 
@@ -115,10 +124,13 @@ Python's ecosystem is increasingly leveraging Rust for performance-critical comp
 
 - [css-inline](https://github.com/Stranger6667/css-inline) - CSS inlining implemented in Rust, for fast HTML email preparation.
 - [selectolax](https://github.com/rushter/selectolax) - Fast HTML5 parser with CSS selectors, using Rust's html5ever engine.
+- [html2text-rs](https://github.com/deedy5/html2text_rs) - Python library for converting HTML to markup or plain text.
+- [html-py-ever](https://github.com/SimonSapin/html5ever-python) - Fast HTML parsing and CSS selecting via html5ever.
 
 ## HTTP Clients
 
 - [primp](https://github.com/deedy5/primp) - Fast HTTP client that can impersonate browsers by mimicking TLS/JA3/HTTP2 fingerprints.
+- [rnet](https://github.com/0x676e67/rnet) - Asynchronous Python HTTP client powered by Rust.
 
 ## Graph Libraries
 
@@ -132,6 +144,26 @@ Python's ecosystem is increasingly leveraging Rust for performance-critical comp
 
 - [river](https://github.com/online-ml/river) - Online machine learning in Python; computationally heavy algorithms in Rust.
 - [forust](https://github.com/jinlow/forust) - A lightweight gradient boosted decision tree library.
+- [radiate](https://github.com/pkalivas/radiate) - A high-performance evolution engine for genetic programming and evolutionary algorithms.
+- [cellular_raza](https://github.com/jonaspleyer/cellular_raza) - A cellular agent-based simulation framework.
+- [feos](https://github.com/feos-org/feos) - Lightning fast thermodynamic modeling with a fully developed Python interface.
+
+## Bioinformatics & Astronomy
+
+- [bed-reader](https://github.com/fastlmm/bed-reader) - Read and write the PLINK BED format, simply and efficiently.
+- [haem](https://github.com/BooleanCat/haem) - A Python library for working on bioinformatics problems.
+- [mocpy](https://github.com/cds-astro/mocpy) - Astronomical Python library for describing coverage regions on the unit sphere.
+
+## Finance
+
+- [finalytics](https://github.com/Nnamdi-sys/finalytics) - Investment analysis library.
+- [rateslib](https://github.com/attack68/rateslib) - A fixed income library for Python using Rust extensions.
+
+## Geospatial
+
+- [geo-index](https://github.com/kylebarron/geo-index) - Packed, immutable, zero-copy spatial indexes.
+- [tzfpy](https://github.com/ringsaturn/tzfpy) - Fast longitude/latitude to timezone name conversion.
+- [utiles](https://github.com/jessekrubin/utiles) - Fast web-map tile utilities.
 
 ## Miscellaneous
 
