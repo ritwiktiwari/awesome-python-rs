@@ -143,3 +143,7 @@ Python's ecosystem is increasingly leveraging Rust for performance-critical comp
 ## Contributing
 
 Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
+
+## Acknowledgements
+
+Inspired by [awesome-python](https://github.com/vinta/awesome-python).
