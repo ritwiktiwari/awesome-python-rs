@@ -2,7 +2,11 @@
 
 A curated list of Python tools, libraries, and frameworks with Rust under the hood.
 
-Python's ecosystem is increasingly leveraging Rust for performance-critical components. This list tracks that movement.
+## Why Rust for Python?
+
+Python's flexibility makes it ideal for rapid development, but computationally intensive operations can become bottlenecks. Rust provides memory safety without garbage collection overhead, zero-cost abstractions, and safe concurrency—making it increasingly popular for implementing performance-critical Python components.
+
+This list tracks the growing movement of Python projects leveraging Rust for their performance-critical components.
 
 ---
 
@@ -37,7 +41,7 @@ Python's ecosystem is increasingly leveraging Rust for performance-critical comp
 
 ## Package Management & Tooling
 
-- [uv](https://github.com/astral-sh/uv) - An extremely fast Python package and project manager.
+- [uv](https://github.com/astral-sh/uv) - An extremely fast Python package and project manager. 10-100x faster than pip, replaces pip-tools, poetry, pyenv, pipx, and virtualenv in a single tool.
 - [maturin](https://github.com/PyO3/maturin) - Build and publish Rust-based Python packages with pyo3, cffi, and uniffi bindings.
 - [pixi](https://github.com/prefix-dev/pixi) - A fast conda/pip package manager.
 - [rye](https://github.com/astral-sh/rye) - A Python project management tool (largely succeeded by uv).
@@ -61,7 +65,7 @@ Python's ecosystem is increasingly leveraging Rust for performance-critical comp
 
 ## Data Processing & DataFrames
 
-- [polars](https://github.com/pola-rs/polars) - A fast multi-threaded DataFrame library.
+- [polars](https://github.com/pola-rs/polars) - Blazingly fast DataFrame library with lazy evaluation and parallel execution. Often 5-10x faster than pandas with significantly lower memory usage.
 - [datafusion-python](https://github.com/apache/datafusion-python) - Python bindings for Apache DataFusion, an in-memory query engine.
 - [delta-rs](https://github.com/delta-io/delta-rs) - Native Rust library for Delta Lake with Python bindings (`deltalake` on PyPI).
 - [connector-x](https://github.com/sfu-db/connector-x) - Fastest library to load data from databases into DataFrames.
@@ -179,3 +183,19 @@ Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md
 ## Acknowledgements
 
 Inspired by [awesome-python](https://github.com/vinta/awesome-python).
+
+## Resources
+
+### Learning
+- [PyO3 User Guide](https://pyo3.rs/) - Official guide for writing Python extensions in Rust
+- [maturin User Guide](https://www.maturin.rs/) - Build and publish Rust Python packages
+- [Writing Python Extensions in Rust](https://www.infoworld.com/article/3687744/how-to-write-python-extensions-in-rust-with-pyo3.html) - InfoWorld tutorial
+
+### Articles
+- [Making Python 100x faster with less than 100 lines of Rust](https://ohadravid.github.io/posts/2023-03-rusty-python/)
+- [Why Rust is the Future of Python Tooling](https://pythonspeed.com/articles/rust-python-tooling/)
+
+### Communities
+- [PyO3 Discord](https://discord.gg/33kcChzH7f)
+- [r/rust](https://reddit.com/r/rust) - Rust community
+- [r/Python](https://reddit.com/r/Python) - Python community
