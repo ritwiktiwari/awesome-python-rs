@@ -5,30 +5,30 @@
 ## Contents
 
 - [Why Rust for Python](#why-rust-for-python)
-- [Package Management & Tooling](#package-management--tooling)
-- [Rust-Python Interop](#rust-python-interop)
-- [Linting, Formatting & Type Checking](#linting-formatting--type-checking)
-- [Web Frameworks & Servers](#web-frameworks--servers)
-- [Data Processing & DataFrames](#data-processing--dataframes)
-- [Serialization & Parsing](#serialization--parsing)
-- [Validation & Data Modeling](#validation--data-modeling)
-- [Tokenization & ML](#tokenization--ml)
-- [Cryptography & Hashing](#cryptography--hashing)
-- [Search & Indexing](#search--indexing)
 - [Arrow & Columnar Data](#arrow--columnar-data)
+- [Bioinformatics & Astronomy](#bioinformatics--astronomy)
 - [Cloud Storage](#cloud-storage)
+- [Cryptography & Hashing](#cryptography--hashing)
+- [Data Processing & DataFrames](#data-processing--dataframes)
+- [Date & Time](#date--time)
 - [Data Structures](#data-structures)
 - [File Watching & System Utilities](#file-watching--system-utilities)
-- [Date & Time](#date--time)
-- [Web Scraping & HTML](#web-scraping--html)
-- [HTTP Clients](#http-clients)
-- [Graph Libraries](#graph-libraries)
-- [Visualization](#visualization)
-- [Scientific Computing](#scientific-computing)
-- [Bioinformatics & Astronomy](#bioinformatics--astronomy)
 - [Finance](#finance)
 - [Geospatial](#geospatial)
+- [Graph Libraries](#graph-libraries)
+- [HTTP Clients](#http-clients)
+- [Linting, Formatting & Type Checking](#linting-formatting--type-checking)
 - [Miscellaneous](#miscellaneous)
+- [Package Management & Tooling](#package-management--tooling)
+- [Rust-Python Interop](#rust-python-interop)
+- [Scientific Computing](#scientific-computing)
+- [Search & Indexing](#search--indexing)
+- [Serialization & Parsing](#serialization--parsing)
+- [Tokenization & ML](#tokenization--ml)
+- [Validation & Data Modeling](#validation--data-modeling)
+- [Visualization](#visualization)
+- [Web Frameworks & Servers](#web-frameworks--servers)
+- [Web Scraping & HTML](#web-scraping--html)
 
 ## Why Rust for Python
 
@@ -78,6 +78,11 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 - [rpds-py](https://github.com/crate-py/rpds) - Python bindings to the Rust rpds crate for persistent data structures.
 - [fastbloom](https://github.com/yankun1992/fastbloom) - A fast bloom filter and counting bloom filter.
 - [fastuuid](https://github.com/thedrow/fastuuid) - Python bindings to Rust's UUID library.
+
+## File Watching & System Utilities
+
+- [watchfiles](https://github.com/samuelcolvin/watchfiles) - Simple, modern, fast file watching and code reload, powered by Rust's `notify` crate.
+- [cramjam](https://github.com/milesgranger/cramjam) - Thin Python bindings to de/compression algorithms (snappy, brotli, lz4, zstd, etc.).
 
 ## Finance
 
