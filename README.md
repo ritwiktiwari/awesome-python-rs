@@ -108,7 +108,10 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 - [ruff](https://github.com/astral-sh/ruff) - An extremely fast Python linter and code formatter.
 - [ty](https://github.com/astral-sh/ty) - An extremely fast Python type checker and language server by Astral.
+- [zuban](https://github.com/zubanls/zuban) - A high-performance Python language server and type checker with PyRight-like and Mypy-compatible modes.
+- [pylyzer](https://github.com/mtshiba/pylyzer) - A fast static type checker and language server for Python, over 100x faster than Pyright.
 - [pyrefly](https://github.com/facebook/pyrefly) - A fast Python type checker and language server from Meta.
+- [rumdl](https://github.com/rvben/rumdl) - A high-performance Markdown linter and formatter written in Rust.
 
 ## Miscellaneous
 
@@ -117,10 +120,12 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 ## Package Management & Tooling
 
-- [uv](https://github.com/astral-sh/uv) - An extremely fast Python package and project manager. 10-100x faster than pip, replaces pip-tools, poetry, pyenv, pipx, and virtualenv in a single tool.
+- [huak](https://github.com/cnpryer/huak) - A Python package manager written in Rust, providing a Cargo-like experience for Python development.
 - [maturin](https://github.com/PyO3/maturin) - Build and publish Rust-based Python packages with pyo3, cffi, and uniffi bindings.
 - [pixi](https://github.com/prefix-dev/pixi) - A fast conda/pip package manager.
+- [prek](https://github.com/j178/prek) - A fast Rust-based reimplementation of the pre-commit framework for managing Git hooks.
 - [rye](https://github.com/astral-sh/rye) - A Python project management tool (largely succeeded by uv).
+- [uv](https://github.com/astral-sh/uv) - An extremely fast Python package and project manager. 10-100x faster than pip, replaces pip-tools, poetry, pyenv, pipx, and virtualenv in a single tool.
 
 ## Rust-Python Interop
 
