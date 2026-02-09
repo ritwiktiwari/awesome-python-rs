@@ -72,7 +72,7 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 ## Date & Time
 
 - [pendulum](https://github.com/python-pendulum/pendulum) - Python datetimes made easy; performance-critical parts rewritten from C to Rust in v3.
-- [whenever](https://github.com/ariebovenberg/whenever) - Typed and DST-safe datetimes for Python
+- [whenever](https://github.com/ariebovenberg/whenever) - Typed and DST-safe datetimes for Python.
 
 ## Data Structures
 
