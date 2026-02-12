@@ -20,6 +20,7 @@
 - [Linting, Formatting & Type Checking](#linting-formatting--type-checking)
 - [Miscellaneous](#miscellaneous)
 - [Package Management & Tooling](#package-management--tooling)
+- [Profiling](#profiling)
 - [Rust-Python Interop](#rust-python-interop)
 - [Scientific Computing](#scientific-computing)
 - [Search & Indexing](#search--indexing)
@@ -47,6 +48,7 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 - [bed-reader](https://github.com/fastlmm/bed-reader) - Read and write the PLINK BED format, simply and efficiently.
 - [haem](https://github.com/BooleanCat/haem) - A Python library for working on bioinformatics problems.
 - [mocpy](https://github.com/cds-astro/mocpy) - Astronomical Python library for describing coverage regions on the unit sphere.
+- [satkit](https://github.com/ssmichael1/satkit) - Satellite and orbital mechanics toolkit for astrodynamics calculations including orbit propagation and coordinate transformations.
 
 ## Cloud Storage
 
@@ -71,6 +73,7 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 ## Date & Time
 
+- [jiff](https://github.com/BurntSushi/jiff) - Datetime library with IANA timezone support, DST-aware arithmetic, and timezone-aware formatting/parsing.
 - [pendulum](https://github.com/python-pendulum/pendulum) - Python datetimes made easy; performance-critical parts rewritten from C to Rust in v3.
 - [whenever](https://github.com/ariebovenberg/whenever) - Typed and DST-safe datetimes for Python.
 
@@ -103,6 +106,7 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 ## HTTP Clients
 
 - [primp](https://github.com/deedy5/primp) - Fast HTTP client that can impersonate browsers by mimicking TLS/JA3/HTTP2 fingerprints.
+- [pyreqwest](https://github.com/MarkusSintonen/pyreqwest) - Fast HTTP client built on Rust's reqwest library with async/sync support and full type safety.
 - [rnet](https://github.com/0x676e67/rnet) - Asynchronous Python HTTP client powered by Rust.
 
 ## Linting, Formatting & Type Checking
@@ -118,6 +122,7 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 - [pycrdt](https://github.com/jupyter-server/pycrdt) - Python bindings for the Yrs Rust CRDT implementation (collaborative editing).
 - [pyxel](https://github.com/kitao/pyxel) - A retro game engine for Python, with core written in Rust.
+- [ry](https://github.com/jessekrubin/ry) - Collection of Python bindings to Rust crates providing utilities for async HTTP, datetime, file I/O, and compression.
 
 ## Package Management & Tooling
 
@@ -127,6 +132,10 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 - [prek](https://github.com/j178/prek) - A fast Rust-based reimplementation of the pre-commit framework for managing Git hooks.
 - [rye](https://github.com/astral-sh/rye) - A Python project management tool (largely succeeded by uv).
 - [uv](https://github.com/astral-sh/uv) - An extremely fast Python package and project manager. 10-100x faster than pip, replaces pip-tools, poetry, pyenv, pipx, and virtualenv in a single tool.
+
+## Profiling
+
+- [filprofiler](https://github.com/pythonspeed/filprofiler/) - Memory profiler for Python that identifies peak memory usage and allocation sources in data processing applications.
 
 ## Rust-Python Interop
 
@@ -144,12 +153,14 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 ## Search & Indexing
 
+- [ahocorasick_rs](https://github.com/G-Research/ahocorasick_rs/) - Fast multi-pattern string search using the Aho-Corasick algorithm, 1.5-7x faster than alternatives.
 - [tantivy-py](https://github.com/quickwit-oss/tantivy-py) - Python bindings for Tantivy, a full-text search engine library (Lucene alternative).
 
 ## Serialization & Parsing
 
 - [orjson](https://github.com/ijl/orjson) - Fast, correct JSON library supporting dataclasses, datetimes, and numpy.
 - [jiter](https://github.com/pydantic/jiter) - Fast iterable JSON parser, used by pydantic and the OpenAI Python SDK.
+- [lp_parser_rs](https://github.com/dandxy89/lp_parser_rs) - Parser for Linear Programming files supporting IBM CPLEX, FICO Xpress, Gurobi, and Mosek formats.
 - [ormsgpack](https://github.com/aviramha/ormsgpack) - Fast MessagePack serialization/deserialization, derived from orjson.
 
 ## Tokenization & ML
@@ -179,6 +190,7 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 - [selectolax](https://github.com/rushter/selectolax) - Fast HTML5 parser with CSS selectors, using Rust's html5ever engine.
 - [html2text-rs](https://github.com/deedy5/html2text_rs) - Python library for converting HTML to markup or plain text.
 - [html-py-ever](https://github.com/SimonSapin/html5ever-python) - Fast HTML parsing and CSS selecting via html5ever.
+- [markupever](https://github.com/awolverp/markupever) - High-performance HTML and XML parser with CSS selector support built on Rust's html5ever engine.
 
 ---
 
