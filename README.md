@@ -73,7 +73,6 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 ## Date & Time
 
-- [jiff](https://github.com/BurntSushi/jiff) - Datetime library with IANA timezone support, DST-aware arithmetic, and timezone-aware formatting/parsing.
 - [pendulum](https://github.com/python-pendulum/pendulum) - Python datetimes made easy; performance-critical parts rewritten from C to Rust in v3.
 - [whenever](https://github.com/ariebovenberg/whenever) - Typed and DST-safe datetimes for Python.
 
