@@ -1,4 +1,4 @@
-# Awesome Python Rust [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Python Rs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of Python tools, libraries, and frameworks with Rust under the hood.
 
