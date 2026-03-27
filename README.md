@@ -25,6 +25,7 @@
 - [Scientific Computing](#scientific-computing)
 - [Search & Indexing](#search--indexing)
 - [Serialization & Parsing](#serialization--parsing)
+- [Sorting](#sorting)
 - [Tokenization & ML](#tokenization--ml)
 - [Validation & Data Modeling](#validation--data-modeling)
 - [Visualization](#visualization)
@@ -161,6 +162,10 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 - [jiter](https://github.com/pydantic/jiter) - Fast iterable JSON parser, used by pydantic and the OpenAI Python SDK.
 - [lp_parser_rs](https://github.com/dandxy89/lp_parser_rs) - Parser for Linear Programming files supporting IBM CPLEX, FICO Xpress, Gurobi, and Mosek formats.
 - [ormsgpack](https://github.com/aviramha/ormsgpack) - Fast MessagePack serialization/deserialization, derived from orjson.
+
+## Sorting
+
+- [natsort-rs](https://github.com/valentinstn/natsort-rs) - Fast natural sorting library, 5-45x faster than alternatives.
 
 ## Tokenization & ML
 
