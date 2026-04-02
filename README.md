@@ -1,6 +1,6 @@
 # Awesome Python Rs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Python tools, libraries, and frameworks powered by Rust.
+> Python tools, libraries, and frameworks with Rust under the hood.
 
 ## Contents
 
