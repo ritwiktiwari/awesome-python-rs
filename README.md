@@ -1,10 +1,9 @@
 # Awesome Python Rust [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of Python tools, libraries, and frameworks with Rust under the hood.
+> Python tools, libraries, and frameworks powered by Rust.
 
 ## Contents
 
-- [Why Rust for Python](#why-rust-for-python)
 - [Arrow & Columnar Data](#arrow--columnar-data)
 - [Bioinformatics & Astronomy](#bioinformatics--astronomy)
 - [Cloud Storage](#cloud-storage)
@@ -31,14 +30,6 @@
 - [Web Frameworks & Servers](#web-frameworks--servers)
 - [Web Scraping & HTML](#web-scraping--html)
 
-## Why Rust for Python
-
-Python's flexibility makes it ideal for rapid development, but computationally intensive operations can become bottlenecks. Rust provides memory safety without garbage collection overhead, zero-cost abstractions, and safe concurrency—making it increasingly popular for implementing performance-critical Python components.
-
-This list tracks the growing movement of Python projects leveraging Rust for their performance-critical components.
-
----
-
 ## Arrow & Columnar Data
 
 - [arro3](https://github.com/kylebarron/arro3) - A minimal Python library for Apache Arrow, binding to the Rust Arrow crate.
@@ -63,7 +54,7 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 ## Data Processing & DataFrames
 
-- [polars](https://github.com/pola-rs/polars) - Blazingly fast DataFrame library with lazy evaluation and parallel execution. Often 5-10x faster than Pandas with significantly lower memory usage.
+- [polars](https://github.com/pola-rs/polars) - DataFrame library with lazy evaluation and parallel execution.
 - [datafusion-python](https://github.com/apache/datafusion-python) - Python bindings for Apache DataFusion, an in-memory query engine.
 - [delta-rs](https://github.com/delta-io/delta-rs) - Native Rust library for Delta Lake with Python bindings (`deltalake` on PyPI).
 - [connector-x](https://github.com/sfu-db/connector-x) - Fastest library to load data from databases into DataFrames.
@@ -125,11 +116,9 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 
 ## Package Management & Tooling
 
-- [huak](https://github.com/cnpryer/huak) - A Python package manager written in Rust, providing a Cargo-like experience for Python development.
 - [maturin](https://github.com/PyO3/maturin) - Build and publish Rust-based Python packages with pyo3, cffi, and uniffi bindings.
 - [pixi](https://github.com/prefix-dev/pixi) - A fast conda/pip package manager.
 - [prek](https://github.com/j178/prek) - A fast Rust-based reimplementation of the pre-commit framework for managing Git hooks.
-- [rye](https://github.com/astral-sh/rye) - A Python project management tool (largely succeeded by uv).
 - [uv](https://github.com/astral-sh/uv) - An extremely fast Python package and project manager. 10-100x faster than pip, replaces pip-tools, poetry, pyenv, pipx, and virtualenv in a single tool.
 
 ## Profiling
@@ -190,8 +179,6 @@ This list tracks the growing movement of Python projects leveraging Rust for the
 - [html2text-rs](https://github.com/deedy5/html2text_rs) - Python library for converting HTML to markup or plain text.
 - [html-py-ever](https://github.com/SimonSapin/html5ever-python) - Fast HTML parsing and CSS selecting via html5ever.
 - [markupever](https://github.com/awolverp/markupever) - High-performance HTML and XML parser with CSS selector support built on Rust's html5ever engine.
-
----
 
 ## Footnotes
 
