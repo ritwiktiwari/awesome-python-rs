@@ -144,6 +144,7 @@
 
 - [ahocorasick_rs](https://github.com/G-Research/ahocorasick_rs/) - Fast multi-pattern string search using the Aho-Corasick algorithm, 1.5-7x faster than alternatives.
 - [tantivy-py](https://github.com/quickwit-oss/tantivy-py) - Python bindings for Tantivy, a full-text search engine library (Lucene alternative).
+- [ruosh](https://github.com/AiDinho/ruosh) - A pythonic  full-text search library with a  Whoosh-like API, but the search engine underneath is Tantivy.
 
 ## Serialization & Parsing
 
