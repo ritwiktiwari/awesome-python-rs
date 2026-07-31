@@ -23,6 +23,7 @@
 - [Rust-Python Interop](#rust-python-interop)
 - [Scientific Computing](#scientific-computing)
 - [Search & Indexing](#search--indexing)
+- [Security](#security)
 - [Serialization & Parsing](#serialization--parsing)
 - [Sorting](#sorting)
 - [Tokenization & ML](#tokenization--ml)
@@ -145,6 +146,10 @@
 - [ahocorasick_rs](https://github.com/G-Research/ahocorasick_rs/) - Fast multi-pattern string search using the Aho-Corasick algorithm, 1.5-7x faster than alternatives.
 - [tantivy-py](https://github.com/quickwit-oss/tantivy-py) - Python bindings for Tantivy, a full-text search engine library (Lucene alternative).
 - [ruosh](https://github.com/AiDinho/ruosh) - A pythonic  full-text search library with a  Whoosh-like API, but the search engine underneath is Tantivy.
+
+## Security
+
+- [pyspector](https://github.com/ParzivalHack/PySpector) - An High-Performance Python/Rust Graph-Based SAST Framework
 
 ## Serialization & Parsing
 
