@@ -149,7 +149,7 @@
 
 ## Security
 
-- [pyspector](https://github.com/ParzivalHack/PySpector) - An High-Performance Python/Rust Graph-Based SAST Framework.
+- [PySpector](https://github.com/ParzivalHack/PySpector) - A High-Performance Python/Rust Graph-Based SAST Framework.
 
 ## Serialization & Parsing
 
