@@ -71,6 +71,7 @@
 
 ## Data Structures
 
+- [pyochain](https://github.com/OutSquareCapital/pyochain) - Iterator, sorted containers, Result, Option, ABCs and more, written in Rust, for Python.
 - [rpds-py](https://github.com/crate-py/rpds) - Python bindings to the Rust rpds crate for persistent data structures.
 - [fastbloom](https://github.com/yankun1992/fastbloom) - A fast bloom filter and counting bloom filter.
 - [fastuuid](https://github.com/thedrow/fastuuid) - Python bindings to Rust's UUID library.
