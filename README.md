@@ -26,6 +26,7 @@
 - [Security](#security)
 - [Serialization & Parsing](#serialization--parsing)
 - [Sorting](#sorting)
+- [Testing](#testing)
 - [Tokenization & ML](#tokenization--ml)
 - [Validation & Data Modeling](#validation--data-modeling)
 - [Visualization](#visualization)
@@ -162,6 +163,10 @@
 ## Sorting
 
 - [natsort-rs](https://github.com/valentinstn/natsort-rs) - Fast natural sorting library, 5-45x faster than alternatives.
+
+## Testing
+
+- [supercov](https://github.com/supercorp-ai/supercov) - Line, branch and MC/DC coverage per test for pytest and unittest runs, measured by a Rust CLI installed from PyPI.
 
 ## Tokenization & ML
 
