@@ -203,6 +203,7 @@
 - [PyO3 User Guide](https://pyo3.rs/) - Official guide for writing Python extensions in Rust.
 - [maturin User Guide](https://www.maturin.rs/) - Build and publish Rust Python packages.
 - [Writing Python Extensions in Rust](https://www.infoworld.com/article/3687744/how-to-write-python-extensions-in-rust-with-pyo3.html) - InfoWorld tutorial.
+- [Up and Running with Rust](https://training.talkpython.fm/courses/up-and-running-with-rust) - Talk Python Course.
 
 ### Articles
 - [Making Python 100x faster with less than 100 lines of Rust](https://ohadravid.github.io/posts/2023-03-rusty-python/) - Performance optimization guide.
