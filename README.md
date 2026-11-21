@@ -186,6 +186,7 @@
 
 ## Web Frameworks & Servers
 
+- [citry](https://github.com/citry-dev/citry) - Safe, fast, and smart Python frontend engineered for AI agents, with its template engine written in Rust.
 - [granian](https://github.com/emmett-framework/granian) - A Rust HTTP server for Python WSGI/ASGI/RSGI apps, built on Hyper and Tokio.
 - [robyn](https://github.com/sansyrox/robyn) - A super fast async Python web framework with a Rust runtime.
 
